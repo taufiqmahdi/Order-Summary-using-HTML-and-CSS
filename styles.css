@@ -1,0 +1,165 @@
+body {
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Red Hat Display', sans-serif;
+    background-image: url("images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+img {
+    width: 100%;
+    object-fit: fill;
+    border-radius: 25px 25px 0 0;
+}
+
+p {
+    font-size: 16px;
+    text-align: center;
+}
+
+.normal-weight-text {
+    font-weight: 700;
+}
+
+.bold-weight-text {
+    font-weight: 900;
+}
+
+.bg-pale-blue {
+ background-color:hsl(225, 100%, 94%);
+}
+
+.bg-bright-blue {
+ background-color:hsl(245, 75%, 52%);
+}
+.bg-very-pale-blue {
+ background-color:hsl(225, 100%, 98%);
+}
+.bg-desaturated-blue {
+ background-color:hsl(224, 23%, 55%);
+}
+.bg-dark-blue {
+ background-color:hsl(223, 47%, 23%);
+}
+
+.x-padding {
+    padding: 0 15px;
+}
+
+.y-padding {
+    padding: 15px 0;
+}
+
+.left-margin {
+    margin-left: 15px;
+}
+
+.right-margin {
+    margin-right: 15px;
+}
+
+.top-margin {
+    margin-top: 15px;
+}
+
+.bottom-margin {
+    margin-bottom: 15px;
+}
+
+.no-text-decoration {
+    text-decoration: none;
+}
+
+.light-text {
+    color: white; 
+}
+
+.dark-text {
+    color: black  ;
+}
+
+.width-80 {
+    width: 80%;
+}
+
+.border-radius-25 {
+    border-radius: 25px;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+
+.button {
+    box-shadow: 0px 10px 10px #b9b9b9;
+}
+
+#header-image {
+    overflow: hidden;
+}
+
+#header {
+    font-size: x-large;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 2px solid blue; */
+    border-radius: 25px;
+    width: 375px;
+    background-color: white;
+    margin-top: 25px;
+    box-shadow: 0px 10px 8px #b9b9b9;
+}
+
+#plan {
+    display: flex;
+    border-radius: 5px;
+    width: 80%;
+}
+
+#plan > div {
+    margin-right: 15px;
+    padding: 10px;
+}
+
+@media (max-width: 375px) {
+    #container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* border: 2px solid blue; */
+        border-radius: 25px;
+        width: 300px;
+        background-color: white;
+        margin-top: 25px;
+        box-shadow: 0px 10px 8px #b9b9b9;
+    }
+
+    #plan > div {
+        margin-right: 10px;
+        padding: 5px;
+        font-size: 14px;
+    }
+}
