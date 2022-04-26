@@ -144,6 +144,10 @@ p {
     padding: 10px;
 }
 
+#plan > div > img {
+    height: 48px;
+}
+
 @media (max-width: 375px) {
     #container {
         display: flex;
